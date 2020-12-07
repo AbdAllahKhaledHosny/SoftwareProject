@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Booking_SystemDBModelStoreContainer" CdmEntityContainer="Booking_SystemDBEntities">
+    <EntitySetMapping Name="notifications_temp">
+      <EntityTypeMapping TypeName="Booking_SystemDBModel.notifications_temp">
+        <MappingFragment StoreEntitySet="notifications_temp">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="content_text" ColumnName="content_text" />
+          <ScalarProperty Name="func" ColumnName="func" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="Booking_SystemDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
